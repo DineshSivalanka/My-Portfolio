@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sivalanka Dinesh</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li style="margin-right:780px;color:#ff02ea;">Dinesh Sivalanka</li>
+                <li><a href="#home" data-target="home">Home</a></li>
+                <li><a href="#About" data-target="About">About</a></li>
+                <li><a href="#education" data-target="education">Education</a></li>
+                <li><a href="#skills" data-target="skills">Skills</a></li>
+                <li><a href="#projects" data-target="projects">Projects</a></li>
+                <li><a href="#contact" data-target="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <div class="content">
+            <h2 style="color:#602a9b;">Hello It's Me</h2>
+            <h1>Dinesh Venkata Kumar Sivalanka</h1>
+            <h3 >And I'm a <span>Front-End Developer</span></h3>
+            <p>Experienced Front-End Developer skilled in building responsive, user-friendly websites and web applications. Proficient in HTML, CSS, JavaScript, and popular frameworks 
+                like React and Vue. Strong collaborator with a focus on clean, maintainable code and 
+                optimizing performance across devices.</p><br>
+            
+            <!-- Add icons here -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/dinesh-venkata-kumar-sivalanka-5348842a9" target="_blank">
+                    <img src="assets/images/LinkedIn.png" alt="LinkedIn Icon" style="width: 50px; height: 50px; margin-right: 10px;">
+                </a>
+                <a href="https://youtube.com/@dineshopgaming8269?si=t_ZbN-GrmMY8Bpbk" target="_blank">
+                    <img src="assets/images/YouTube.png" alt="YouTube Icon" style="width: 50px; height: 50px; margin-right: 10px;">
+                </a>
+                <a href="https://x.com/DineshSivalanka?t=Mgtei7L19Y6sXL-qrCBrJw&s=09" target="_blank">
+                    <img src="assets/images/X.png" alt="Twitter Icon" style="width: 50px; height: 50px; margin-right: 10px;">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61553654476189&mibextid=ZbWKwL" target="_blank">
+                    <img src="assets/images/Facebook.png" alt="Facebook Icon" style="width: 50px; height: 50px; margin-right: 10px;">
+                </a>
+                <a href="https://www.instagram.com/dinesh__sivalanka?igsh=MWxhanBvMHIzZzZuZg==" target="_blank">
+                    <img src="assets/images/Instagram.png" alt="Instagram Icon" style="width: 50px; height: 50px;">
+                </a>
+            </div>
+
+            <a href="assets/files/dineshsivalanka.pdf" class="btn" target="_blank">Download CV</a>
+        </div>
+        <div class="profile-pic">
+            <img src="assets/images/picture.png" alt="Profile Picture">
+        </div>
+    </section>
+
+    <section id="About">
+        <div class="container">
+            <div class="profile-pic">
+                <img src="assets/images/picture.png" alt="Profile Picture">
+            </div>
+            <div class="content">
+                <h2>About <span>Me</span></h2>
+                <strong style="color:#ff02ea;font-size:25px;">Frontend Developer</strong>
+                <p>
+                    Hi, My name is Sivalanka Dinesh Venkata Kumar. I am a Frontend developer, UI designer.
+                    My passion lies in creating captivating website designs and implementing them through
+                    frontend development. I am a passionate individual who thrives to build and apply algorithms
+                    to solve real-world industry problems.
+                </p>
+                <a href="#" class="btn" onclick="showAboutDetails()">See More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for About Details -->
+    <div id="about-details-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeAboutDetails()">X</button>
+            <h2 style="font-size:30px">About <span style="color:#7508db;">Me</span></h2>
+            <strong style="color:#ff02ea;font-size:20px">Frontend Developer</strong>
+            <p style="font-size:18px">
+                Hi, My name is Sivalanka Dinesh Venkata Kumar. I am a Frontend developer, UI designer.
+                My passion lies in creating captivating website designs and implementing them through
+                frontend development. I have honed my skills in web development and have a core understanding
+                of advanced UI design principles. I am a passionate individual who thrives on building and applying
+                algorithms to solve real-world industry problems.
+            </p>
+            <div>
+                <p>➤ <strong style="color:#7508db;font-size:18px">Birthday :</strong><span style="color:#ffffff;font-size:18px">11 November 2005</span></p>
+                <p>➤ <strong style="color:#7508db;font-size:18px">Phone :</strong> <a href="tel:+919542643859" style="color:#ffffff;font-size:18px">+91 9999999999</a></p>
+                <p>➤ <strong style="color:#7508db;font-size:18px">City :</strong><span style="color:#ffffff;font-size:18px"> Yendagandi, West Godavari, AP, 534186</span></p>
+                <p>➤ <strong style="color:#7508db;font-size:18px">Gmail :</strong> <a href="mailto:sivalankadinesh2005@gmail.com" style="color:#ffffff;font-size:18px">sivalankadinesh2005@gmail.com</a></p>
+            </div>
+            <div class="interests">
+                <h3>➤<span style="color: #7508db;font-size: 30px;">Interests :</span></h3>
+                <div class="interests-container">
+                    <div class="interest-box">⚙️ Software Engineering</div>
+                    <div class="interest-box">💻 Web Development</div>
+                    <div class="interest-box">📂 Database</div>
+                    <div class="interest-box">📊 Data Structures</div>
+                    <div class="interest-box">🖥️ Software Development</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="education">
+        <center>
+            <h2>
+                <span style="color: white;">My</span> 
+                <span style="color: #7508db;">Education</span>
+            </h2>
+        </center>
+        <div class="education-container">
+            <div class="box education-box">
+                <img src="assets/images/srkrlogo.png" alt="SRKR Engineering College" style="max-width: 310px;">
+                <p>SRKR Engineering College, Bhimavaram, India<br>Jul 2024–Present<br><strong style="color: #ff03dd;">B.Tech CSE | CGPA: 9.10</strong></p>
+            </div>
+            <div class="box education-box">
+                <img src="assets/images/sbsp.png" alt="SBSP Polytechnic" style="max-width: 200px;">
+                <p>Smt. B. Seetha Polytechnic, Bhimavaram, India<br>Sept 2021–Apr 2024<br><strong style="color: #ff03dd;">Diploma CSE | Percentage: 96.5</strong></p>
+            </div>
+            <div class="box education-box">
+                <img src="assets/images/ssc.png" alt="AP School Education" style="max-width: 310px;">
+                <p>Govt High School Yendagandi, India<br>Jun 2020–Jun 2021<br><strong style="color: #ff03dd;">SSC | CGPA: 9.7</strong></p>
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <center>
+            <h2>
+                <span style="color: white;">My</span> 
+                <span style="color: #7508db;">Experiences</span>
+            </h2>
+        </center>
+        <div class="experience-container">
+        <h3 style="color:#8400ff">Web Developer Intern-<span style="color:#99098d">My Access Pvt Ltd </span><span style="color:#bab6ba;">(Nov 2023 – May 2024)</span></h3>
+            <h4>• Completed a 6-month internship focused on full-stack development, Python programming, and machine learning.<br>
+                • Worked on a <strong>Fraud Detection in Banking Data</strong> project, improving fraud detection accuracy by up to <strong>85%</strong> using machine learning models.<br>
+                • Developed and optimized data pipelines, reducing processing time by <strong>40%</strong> for large financial datasets.<br>
+                • Built and deployed fraud detection models using <strong>Python</strong>, <strong>Flask</strong>, and <strong>SQL</strong>, increasing transaction validation efficiency by <strong>25%</strong>.<br>
+                • Improved code efficiency by <strong>15%</strong> through debugging, performance tuning, and code reviews.</h4>
+            </div>
+        
+    </section>
+    <section id="skills"> 
+    <center>
+        <h2 style="font-size:2.5rem;">
+        <span style="color: white;">My</span> 
+        <span style="color: #7508db;">Skills<span>
+        </h2>
+    </center>
+    <div class="skills">
+        <div class="skills2">
+            <center><h3 style="color: #ff02ea;">Languages <span style="color: #8401ff;">and </span>Databases</h3></center>
+                <img src="assets/images/python.jpg" alt="Python">
+                <img src="assets/images/java.png" alt="Java">
+                <img src="assets/images/cpp.png" alt="Cpp">
+                <img src="assets/images/mysql.png" alt="MySQL">
+                <img src="assets/images/html.png" alt="HTML">
+                <img src="assets/images/css.png" alt="CSS">
+                <img src="assets/images/js.png" alt="JavaScript">
+            </div>
+            <br>
+            <div class="skills2">
+                <center><h3 style="color: #ff02ea;">Frameworks</h3></center>
+                    <img src="assets/images/flask.png" alt="Flask">
+                    <img src="assets/images/numpy.jpg" alt="Numpy">
+                    <img src="assets/images/pandas.jpg" alt="Pandas"> 
+                    <img src="assets/images/matplotlib.jpg" alt="matplotlib"> 
+                    <img src="assets/images/sklearn.png" alt="sklearn"> 
+                </div>
+                <br>
+            <div class="skills2">
+            <center><h3 style="color: #ff02ea;">Tools</h3></center>
+                <img src="assets/images/jupyternotebook.png" alt="Jupyter Notebook">
+                <img src="assets/images/vscode.jpg" alt="Visual Studio Code">
+                <img src="assets/images/github.jpg" alt="GitHub"> 
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <center>
+            <h2 style="font-size:2.5rem;">
+            <span style="color: white;">My</span> 
+            <span style="color: #7508db;">Projects<span>
+            </h2>
+        </center>        
+        <div class="project-container">
+            <div class="project">
+                <img src="assets/images/firefight.png" alt="Fire Fighting Robot">
+                <div class="project-info">
+                    <p class="project-title"> Fire Control Robot</p>
+                    <p> •  fire-control robot capable of navigating narrow and hazardous spaces, significantly reducing human risk during
+                        high-intensity fire incidents.<br><br>
+                        •  Implemented Arduino Uno R3, ESP32-CAM for 360° real-time video surveillance, and HC-05 Bluetooth
+                        transceiver for wireless communication within 10 meters, ensuring precise operation in challenging
+                        environments.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/images/frauddet.png" alt="Fraud Detection in Banking Data">
+                <div class="project-info">
+                    <p class="project-title"> Fraud Detection In Banking System </p>
+                    <p>•  Developed an ML-based fraud detection system, handling an 80:20 dataset imbalance with class-weight tuning
+                        and Bayesian optimization, improving accuracy by 10% and reducing errors by 12% using ensemble models
+                        (CatBoost, XGBoost, LightGBM)<br><br>
+                        •  Analyzed 10M+ transactions using deep learning, improving precision and recall by 15%, reducing false
+                        positives/negatives, and optimizing system performance with a 25% faster processing time, achieving an
+                        F1-score of 0.92. </p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/images/crop.jpg" alt="My Portfolio">
+                <div class="project-info">
+                    <p class="project-title"> AI-Powered Agriculture Web Application</p>
+                    <p> •  Designed and developed a responsive frontend using HTML, CSS, and JavaScript. Implemented AI-based
+                        Disease Detection with PyTorch and ResNet for crop health analysis. Developed Crop Recommendation and
+                        Fertilizer Optimization models using Scikit-Learn.<br><br>
+                        •  Built and integrated a Flask-based backend for API communication and data processing. Created an AI-powered
+                        Chatbot using NLP for farmer assistance and integrated real-time weather forecasting with OpenWeather API.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div>
+            <center>
+                <h2 style="color: #7508db;font-size:2.5rem;">Contact</h2>
+            </center>
+            <div class="contact-container">
+                <div class="contact">
+                    <p>📍<strong style="color: #f20688;">My Address</strong></p>
+                    <p>Yendagandi, West Godavari, 534186, Andhra Pradesh</p>
+                </div>
+                <div class="contact">
+                    <p>📞 <strong style="color: #f20688;">Contact</strong></p>
+                    <p><a href="tel:+919999999999">+91 9999999999</a></p>
+                </div>
+                <div class="contact">
+                    <p>📧 <strong style="color: #f20688;">Email</strong></p>
+                    <p><a href="mailto:sivalankadinesh2005@gmail.com">sivalankadinesh2005@gmail.com</a></p>
+                </div>
+                <div class="contact">
+                    <p>🌐 <strong style="color: #f20688;">Social Profiles</strong></p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/dinesh-venkata-kumar-sivalanka-5348842a9" target="_blank">
+                            <img src="assets/images/LinkedIn.png" alt="LinkedIn Icon" style="width: 50px; height: 50px; margin-right: 10px;">
+                        </a>
+                        <a href="https://youtube.com/@dineshopgaming8269?si=t_ZbN-GrmMY8Bpbk" target="_blank">
+                            <img src="assets/images/YouTube.png" alt="YouTube Icon" style="width: 50px; height: 50px; margin-right: 10px;">
+                        </a>
+                        <a href="https://x.com/DineshSivalanka?t=Mgtei7L19Y6sXL-qrCBrJw&s=09" target="_blank">
+                            <img src="assets/images/X.png" alt="Twitter Icon" style="width: 50px; height: 50px; margin-right: 10px;">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61553654476189&mibextid=ZbWKwL" target="_blank">
+                            <img src="assets/images/Facebook.png" alt="Facebook Icon" style="width: 50px; height: 50px; margin-right: 10px;">
+                        </a>
+                        <a href="https://www.instagram.com/dinesh__sivalanka?igsh=MWxhanBvMHIzZzZuZg==" target="_blank">
+                            <img src="assets/images/Instagram.png" alt="Instagram Icon" style="width: 50px; height: 50px;">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
